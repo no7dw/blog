@@ -39,6 +39,7 @@
 ![pm2 cpu & mem][4]
 
 ![take a close watch at pm2][5]
+
 **CPU 奇怪的高**
 逐个时间点与GA同时看
 
@@ -57,6 +58,7 @@ $ grep 'GET /wx/caiyun'  /var/log/finance/applogs/koala-9031-out.log.1 | grep "2
 >node1
 2015-08-04 21:10:53 +08:00: FATAL ERROR: JS Allocation failed - process out of memory
 ...
+
 node2
 ...
 2015-08-04 23:00:50 +08:00: FATAL ERROR: CALL_AND_RETRY_2 Allocation failed - process out of memory
