@@ -45,8 +45,7 @@
 
 > $ grep 'GET /wx/caiyun'  /var/log/finance/applogs/koala-9031-out.log | grep "20:[0-9][0-9]:" | wc -l
 3794
-
-$ grep 'GET /wx/caiyun'  /var/log/finance/applogs/koala-9031-out.log.1 | grep "20:[0-9][0-9]:" | wc -l
+> $ grep 'GET /wx/caiyun'  /var/log/finance/applogs/koala-9031-out.log.1 | grep "20:[0-9][0-9]:" | wc -l
 3045
 
 无特别大的波动。
