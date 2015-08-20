@@ -37,3 +37,5 @@ WriteResult({ "nInserted" : 1 })
  - 尝试 undo  capped , stackoverflow 后发现只有rename ,and recreate data 的方法。由于创建大量数据会锁库很严重。于是紧紧rename 了这个数据库（没有旧数据关系不大，所以这么做）
 
 
+at last, 做完db 操作，要跑测试代码.
+
